@@ -1,3 +1,6 @@
+#!name=TikTok-KR
+#!desc=韩国TikTok内容
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) KR 307

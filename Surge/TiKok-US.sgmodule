@@ -1,3 +1,6 @@
+#!name=TikTok-US
+#!desc=美国TikTok内容
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) US 307

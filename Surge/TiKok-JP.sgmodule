@@ -1,3 +1,6 @@
+#!name=TikTok-JP
+#!desc=日本TikTok内容
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) JP 307

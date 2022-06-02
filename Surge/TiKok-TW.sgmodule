@@ -1,3 +1,6 @@
+#!name=TikTok-TW
+#!desc=台湾TikTok内容
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) TW 307
