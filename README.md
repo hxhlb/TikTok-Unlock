@@ -70,22 +70,22 @@
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 
@@ -109,7 +109,7 @@ hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 4、找到`[filter_remote]`添加下句分流(无论使用方法一或是方法二，此分流都需要添加！)
 
 ```
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 5、换区：在[rewrite_local]中添加下句重写，并将`CN`改为想看的国家/地区的2位`大写`英文简写 JP（日本）｜KR（韩国）｜UK（英国）｜US（美国）｜TW（台湾）
@@ -142,28 +142,28 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokJP.plugin
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Loon/TikTokJP.plugin
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokTW.plugin
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Loon/TikTokTW.plugin
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokKR.plugin
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Loon/TikTokKR.plugin
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.plugin
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Loon/TikTokUS.plugin
 ```
 
 3、在`[Remote Rule]`下面添加TikTok分流规则，示例如下：
 
 ```
-https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
+https://raw.githubusercontent.com/hxhlb/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
 ```
 
 ---
@@ -179,28 +179,28 @@ https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=Tik
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
 ```
 
 3、添加以下`分流`
 
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TikTok.list
 ```
 
 ---
@@ -216,28 +216,28 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
 ```
 
 3、添加以下`分流`
 
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Shadowrocket/TikTok.list
 ```
 
 ---
@@ -251,9 +251,9 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 * 搜索 APP，双击选择。  
 * 双击选择要下载的版本。  
 * 在 iTunes 中下载即可。  
-![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/1.png)
-![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/2.png)
-![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/3.png)
+![Image text](https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/iOS抓包/1.png)
+![Image text](https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/iOS抓包/2.png)
+![Image text](https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/iOS抓包/3.png)
 
 **二、复制 APP 链接方式**
 * 在 iTunes 下载按钮右侧下拉菜单中，选择【复制链接】。  
@@ -295,7 +295,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 * 【开始拦截】，iTunes 中更新该软件，即可正常下载该版本。  
 
 **下载地址**  
-* [iOS任意版本号APP下载v5.1](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/iOS旧版应用下载v5.1.exe)
+* [iOS任意版本号APP下载v5.1](https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/iOS抓包/iOS旧版应用下载v5.1.exe)
 
 **iTunes v12.6.5.3（最后一个带 AppStore 的版本）**
 * 官方直链：  
