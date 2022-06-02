@@ -80,7 +80,7 @@ https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikT
 
 **韩国**
 ```
-https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-kR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Quantumult%20X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 **美国**
@@ -189,7 +189,7 @@ https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-TW.sgmo
 
 **韩国**
 ```
-https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+https://raw.githubusercontent.com/hxhlb/TikTok-Unlock/master/Surge/TiKok-kR.sgmodule
 ```
 
 **美国**
